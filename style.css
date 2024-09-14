@@ -1,0 +1,43 @@
+body{
+    background-color: light pink;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    /* background-color: #acc6aa; */
+    background-color: #ced6ce;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+header{
+    background-color: #faf6e9;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+img{
+    border: 3px solid black;   
+}
+p{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Hina Mincho", serif;
+    font-style: normal;
+}
+.pricing{
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    border: 10px solid whitesmoke;
+    text-align: center;
+
+}
+.hina-mincho-regular {
+    font-family: "Hina Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
